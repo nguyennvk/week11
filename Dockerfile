@@ -29,7 +29,7 @@ COPY --from=builder /app/prisma ./prisma
 COPY --from=builder /app/node_modules/.prisma ./node_modules/.prisma
 
 # TODO: SET ENV variables
-ENV POSTGRES_PASSWORD="bBXbcEkJFpPYAUTGhEMdndOHvFQdqsgy"
+ENV POSTGRES_PASSWORD="KvbZhbVlcFCIKUPgNMgrLQwJiHGjksZr"
 
 # TODO: install production dependencies
 ENV NODE_ENV=production
