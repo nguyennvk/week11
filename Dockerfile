@@ -16,7 +16,7 @@ RUN npx prisma generate
 RUN npm run build
 
 # TODO: Production stage
-FROM node:20-alpine AS runtime
+FROM node:20-alpine AS runner
 WORKDIR /app
 
 
